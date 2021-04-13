@@ -8,17 +8,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><?php echo lang('HOME_ADMIN') ?></a>
+      <a class="navbar-brand" href="dashboard.php"><?php echo lang('HOME_ADMIN') ?></a>
     </div>
 
    
     <div class="collapse navbar-collapse" id="app-nav">
       <ul class="nav navbar-nav">
+        <li ><a href="categories.php"><?php echo lang('CATEGORIES'); ?> </a></li>
         <li ><a href="#"><?php echo lang('ITEMS'); ?> </a></li>
         <li ><a href="members.php"><?php echo lang('MEMBERS');?> </a></li>
         <li ><a href="#"><?php echo lang('STATISTICS');?> </a></li>
         <li ><a href="#"><?php echo lang('LOGS');?> </a></li>
-        <li ><a href="#">Categories </a></li>
+         <li ><a href="#">Categories </a></li>
        
       </ul>
       
