@@ -29,6 +29,10 @@ $(function(){
         return confirm('Are you sure');
     });
 
+    // Category view option
+    $('.cat h3').click(function(){
+        $(this).next('.full-view').fadeToggle();
+    });
 
 
 });
